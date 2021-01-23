@@ -7,7 +7,7 @@ chars = "!@#$%^&*=<>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWX
 while True:
 
     file = open("password.txt", 'a+', encoding='utf-8')
-    length = random.randint(1,16)
+    length = random.randint(4,16)
     password = ""
 
     for i in range(length):
