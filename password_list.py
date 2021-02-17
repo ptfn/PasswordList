@@ -1,6 +1,4 @@
 import random
-import hashlib
-import time
 
 chars = "!@#$%^&*=<>0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
@@ -16,3 +14,4 @@ while True:
     if password not in file:
         file.write('{}\n'.format(password))
         file.close()
+        
