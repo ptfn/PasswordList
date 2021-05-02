@@ -14,4 +14,3 @@ while True:
     if password not in file:
         file.write('{}\n'.format(password))
         file.close()
-        
